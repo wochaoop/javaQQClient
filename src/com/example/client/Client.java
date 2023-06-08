@@ -12,8 +12,8 @@ public class Client {
             int port = 6666;
 
             Socket client = new Socket(host, port);
-            new ReadDateFromServerThread(client).start();
             new WriteDateToServerThread(client).start();
+            new ReadDateFromServerThread(client).start();
         } catch (IOException e) {
             e.printStackTrace();
         }
