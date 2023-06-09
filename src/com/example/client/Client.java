@@ -7,9 +7,9 @@ public class Client {
     public static void main(String[] args) {
         try {
 
-            String host = "127.0.0.1";
+            String host = "45.125.46.201";
 
-            int port = 6666;
+            int port = 43819;
 
             Socket client = new Socket(host, port);
             new WriteDateToServerThread(client).start();
