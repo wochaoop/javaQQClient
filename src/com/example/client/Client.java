@@ -7,7 +7,7 @@ public class Client {
     public static void main(String[] args) {
         try {
 
-            String host = "45.125.46.201";
+            String host = "127.0.0.1";
 
             int port = 43819;
 
