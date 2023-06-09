@@ -18,6 +18,7 @@ public class WriteDateToServerThread extends Thread{
             OutputStream clientOutput = this.client.getOutputStream();
             OutputStreamWriter writer = new OutputStreamWriter(clientOutput);
             Scanner scanner = new Scanner(System.in);
+            System.out.println("请输入/register 进行注册\n" + "请输入/groupChat 进行群聊\n" + "请输入/privateChat 进行私聊" + "请输入/bye 离开聊天室");
             while (true) {
                 System.out.print("请输入>>");
                 String data = scanner.nextLine();
