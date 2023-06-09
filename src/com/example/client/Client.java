@@ -7,7 +7,7 @@ public class Client {
     public static void main(String[] args) {
         try {
 
-            String host = "127.0.0.1";
+            String host = "frp-fan.top";
 
             int port = 43819;
 
